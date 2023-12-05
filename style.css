@@ -1,0 +1,117 @@
+:root{
+    --cor-background-titulo: #111111;
+    --cor-branco-padrao: #FFFFFF;
+    --cor-background-padrao: #F4F4F4;
+    --cor-brackground-two: #282E34;
+    font-family: sans-serif;
+}
+.container__section {
+    background-image: url(img/sleepcat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+   
+}
+
+.title__section {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    margin: -25px 0 0 -25px;
+    padding: 30px;
+    background-color: var(--cor-background-titulo);
+    color: var(--cor-branco-padrao);
+}
+
+.section__one {
+    text-align: center;
+    background-color: var(--cor-branco-padrao);
+    
+}
+
+.title__section__one {
+    margin: 1em 0;
+    font-size: 24px;
+}
+
+.text__section {
+    margin: 2em 8em;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.second__image {
+    background-image: url(img/hiddencat.jpg);
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.title__image {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 24px;
+    color: var(--cor-branco-padrao);
+}
+
+.section__two {
+    text-align: center;
+    background-color: var(--cor-brackground-two);
+    padding: 16px;
+}
+
+.title__section__two {
+    margin: 1em 0;
+    font-size: 24px;
+    color: var(--cor-branco-padrao);
+}
+
+.text__section__two {
+    margin: 2em 8em;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: var(--cor-branco-padrao);
+}
+
+.image__three {
+    background-image: url(img/catontable.jpg);
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.section__three {
+    text-align: center;
+    background-color: var(--cor-brackground-two);
+    padding: 16px;
+}
+
+.title__section__three {
+    margin: 1em 0;
+    font-size: 24px;
+    color: var(--cor-branco-padrao);
+}
+
+.text__section__three {
+    margin: 2em 8em;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: var(--cor-branco-padrao);
+}
+
+.footer {
+    background-color: var(--cor-brackground-two);
+    text-align: center;
+    padding: 1em;
+}
+
+.footer__text {
+    font-size: 12px;
+}
